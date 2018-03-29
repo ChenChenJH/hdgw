@@ -30,20 +30,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			});
 		</script>
-
-
 </head>
 <body>
-<!--横幅-->
+	<!--头部，菜单栏-->
 	<div class="banner banner1" id="home">
 			<div class="header">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo-2.png" alt=""></a>
+				<a href="main.html"><img src="images/logo-2.png" alt=""></a>
 			</div>
 			<div class="navigation">
 				 <span class="menu"></span> 
 					<ul class="navig">
-						<li><a href="index.html">首页</a></li><span><img src="images/clk.png" alt="" /></span>
+						<li><a href="main.html">首页</a></li><span><img src="images/clk.png" alt="" /></span>
 						<li><a href="about-us.html">关于我们</a></li><span><img src="images/clk.png" alt="" /></span>
 						<li><a href="product.html">产品介绍</a></li><span><img src="images/clk.png" alt="" /></span>
 						<li><a href="carrers.html" class="active">公司规划</a></li><span><img src="images/clk.png" alt="" /></span>
@@ -67,9 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					});
 				});
 		 </script>
-		 <!-- script-for-menu -->	
-	<!--end-banner-->
-	<!--start-carrer-->
+		<!--未来发展计划-->
 	<div class="carrer">
 		<div class="container">
 			<div class="carrer-top">
@@ -136,28 +132,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		</div>
 	</div>
-	<!--start-carrer-->
-	<!----- Comman-js-files ----->
-		<script>
-			$(document).ready(function() {
-				$("#tab2").hide();
-				$("#tab3").hide();
-				$(".tabs-menu a").click(function(event){
-					event.preventDefault();
-					var tab=$(this).attr("href");
-					$(".tab-grid").not(tab).css("display","none");
-					$(tab).fadeIn("slow");
-				});
-			});
-		</script>
-		<!----- Comman-js-files ----->
-	<!--start-footer-->
+	<!--尾部-->
 	<div class="footer">
 		<div class="container">
 			<div class="footer-main">
 				<div class="contact">
 					<div class="col-md-8 contact-left">
-						<a href="index.html"><img src="images/logo.png" alt="" /></a>
+						<a href="main.html"><img src="images/logo.png" alt="" /></a>
 						<p><span class="wenzi">每一次创新，都是一个新的开始！科技引领时代，网络发展世界！</span><img src="images/erweima.png"></p>
 					</div>
 					<div class="col-md-4 contact-right">
@@ -186,6 +167,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	<!--end-footer-->
 </body>
 </html>
